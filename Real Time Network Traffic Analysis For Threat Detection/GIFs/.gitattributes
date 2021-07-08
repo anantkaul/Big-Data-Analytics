@@ -1,2 +1,4 @@
 Kafka-Daemons-Topics-Describe.gif filter=lfs diff=lfs merge=lfs -text
 Kibana-Dashboard.gif filter=lfs diff=lfs merge=lfs -text
+RealTime-Pcap-KafkaConsumer.gif filter=lfs diff=lfs merge=lfs -text
+RealTimeStreaming-Kibana.gif filter=lfs diff=lfs merge=lfs -text
