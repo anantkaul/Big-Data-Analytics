@@ -2,6 +2,7 @@
 
 ## Abstract
 Wi-Fi is now ubiquitous in most populated areas, and the way the devices communicate leaves a lot of 'digital exhaust'. Usually, a computer will have a Wi-Fi device that’s configured to connect to a given network, but often these devices can be configured instead to pick up the background Wi-Fi chatter of surrounding devices. There can always be good reasons as well as bad ones for the same, but the matter is all about the intensions. So, now imagine how many packets are flowing in a network and how harmful or useful they can be. Keeping the bad part aside, we can use this for ethical purpose, like in this report. Now, the analysis can be done by examining the flow of packets (which can add some reasonable meaning to it) that are being sent/received over the network (heavily). This report basically revolves around the analysis and hence, can be detected on a real-time basis.
+
 **Keywords:** Wireshark CLI (tshark), Zookeeper, Kafka, Logstash, Elasticsearch, Kibana.
 
 ## Process
