@@ -7,6 +7,6 @@ As implemented and featured in Fig. 1, the process starts with capturing or trac
 
 ## Flow Diagram
 ![Fig. 1](Process-flow.png)
-Fig. 1{align=center}
+#Fig. 1{align=center}
 
 
