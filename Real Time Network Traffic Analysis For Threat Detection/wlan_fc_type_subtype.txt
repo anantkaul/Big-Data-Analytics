@@ -1,0 +1,59 @@
+wlan.fc.type == 0 	all management frames
+
+wlan.fc.type_subtype == 0 	association requests
+wlan.fc.type_subtype == 1 	association response
+wlan.fc.type_subtype == 2 	re-association request
+wlan.fc.type_subtype == 3 	re-association response
+wlan.fc.type_subtype == 4 	probe requests
+wlan.fc.type_subtype == 5 	probe responses
+wlan.fc.type_subtype == 8 	beacons
+wlan.fc.type_subtype == 9 	atims
+wlan.fc.type_subtype == 10 	disassosiations
+wlan.fc.type_subtype == 11 	authentications
+wlan.fc.type_subtype == 12 	deauthentications
+wlan.fc.type_subtype == 13 	actions
+wlan.fc.type_subtype == 14 	Action No Ack
+wlan.fc.type_subtype == 15 	Aruba Management
+wlan.fc.type_subtype == 16 	Unrecognized (Reserved frame)
+wlan.fc.type_subtype == 17 	Unrecognized (Reserved frame)
+wlan.fc.type_subtype == 18 	Trigger
+wlan.fc.type_subtype == 19 	Unrecognized (Reserved frame)
+wlan.fc.type_subtype == 20 	Beamforming Report Poll
+wlan.fc.type_subtype == 21 	VHT/HE NDP Announcement
+wlan.fc.type_subtype == 23 	Control Wrapper
+
+wlan.fc.type == 1 	all control frames
+
+wlan.fc.type_subtype == 24 	block ack requests
+wlan.fc.type_subtype == 25 	block ack
+wlan.fc.type_subtype == 26 	ps-polls
+wlan.fc.type_subtype == 27 	rts
+wlan.fc.type_subtype == 28 	cts
+wlan.fc.type_subtype == 29 	acks
+wlan.fc.type_subtype == 30 	cf-ends
+wlan.fc.type_subtype == 31 	cf-ends/cf-acks
+
+wlan.fc.type == 2 	all data frames
+
+wlan.fc.type_subtype == 32 	data frames
+wlan.fc.type_subtype == 33 	data+cf-ack
+wlan.fc.type_subtype == 34 	data+cf-poll
+wlan.fc.type_subtype == 35 	data+cf-ack + cf-ack
+wlan.fc.type_subtype == 36 	null data
+wlan.fc.type_subtype == 37 	cf-ack
+wlan.fc.type_subtype == 38 	cf-poll
+wlan.fc.type_subtype == 39 	cf-ack + cf-poll
+wlan.fc.type_subtype == 40 	qos data 
+wlan.fc.type_subtype == 41 	qos data + cf-ack
+wlan.fc.type_subtype == 42 	qos data + cf-poll
+wlan.fc.type_subtype == 43 	qos data + cf-ack+ cf-poll
+wlan.fc.type_subtype == 44 	qos null
+wlan.fc.type_subtype == 46 	qos cf-poll
+wlan.fc.type_subtype == 47 	qos cf-ack + cf-poll
+
+# Naming Convensions
+qos	-> quality of service
+ps	-> power-save
+rts	-> Request-to-send
+cts	-> Cear-to-send
+cf	-> Control-frame
